@@ -1,0 +1,8 @@
+<li>
+  {{#link-to 'show' show.id}}{{show.title}}{{/link-to}}
+  {{#if isImageShowing}}
+    <p><img src={{show.poster}} {{action 'imageHide'}}></p>
+  {{else}}
+    <button {{action 'imageShow'}}>Show Poster</button>
+  {{/if}}
+</li>
