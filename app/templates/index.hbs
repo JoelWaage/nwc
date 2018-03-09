@@ -1,0 +1,9 @@
+<h2>Home Page</h2>
+
+<ul>
+  {{#each model as |show|}}
+    <li>{{show.title}}</li>
+  {{/each}}
+</ul>
+
+{{outlet}}
