@@ -1,0 +1,30 @@
+{ "shows": [{
+    "title": "The Apple Tree",
+    "music": "Jerry Bock",
+    "lyrics": "Sheldon Harnick",
+    "book": "Jerry Bock, Sheldon Harnick, Jerome Coppersmith",
+    "blurb": "Three vignettes involving a woman who has to make a difficult choice",
+    "image": "http://broadwaymusicalhome.com/images/poster/appletree.jpg"
+  }, {
+    "title": "The Story of My Life",
+    "music": "Neil Bartram",
+    "lyrics": "Neil Bartram",
+    "book": "Brian Hill",
+    "blurb": "A successful author returns to his hometown to eulogize his childhood best friend",
+    "image": "http://broadwaymusicalhome.com/images/poster/story.jpg"
+  }, {
+    "title": "Lysistrata Jones",
+    "music": "Lewis Flinn",
+    "lyrics": "Lewis Flinn",
+    "book": "Douglas Carter Beane",
+    "blurb": "Aristophanes' classic story of a sex-strike to prevent war is reset and scaled down to tell the story of a sex-strike to get a college basketball team to win",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Lysistrata_Jones_Playbill_cover.jpg/220px-Lysistrata_Jones_Playbill_cover.jpg"
+  }, {
+    "title": "Carrie",
+    "music": "Michael Gore",
+    "lyrics": "Dean Pitchford",
+    "book": "Lawrence D. Cohen",
+    "blurb": "Based on the Stephen King novel about a high school girl with religious fanatic of a mother and some special powers",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Carrie_the_Musical_Poster.jpg/200px-Carrie_the_Musical_Poster.jpg"
+  }]
+}
