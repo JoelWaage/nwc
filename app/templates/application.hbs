@@ -1,9 +1,14 @@
-<p>Menu Bar</p>
-
-{{outlet}}
-
-{{#link-to 'contact'}}Contact Us{{/link-to}}
-<br>
-{{#link-to 'about'}}About{{/link-to}}
-<br>
-{{#link-to 'index'}}Home{{/link-to}}
+<div class="container">
+  <header class="jumbotron">
+    <h3>New Work City</h3>
+  </header>
+    {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'contact'}}Contact Us{{/link-to}}
+    <br>
+    {{#link-to 'about'}}About{{/link-to}}
+    <br>
+    {{#link-to 'index'}}Home{{/link-to}}
+  </footer>
+</div>
