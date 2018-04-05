@@ -1,0 +1,32 @@
+{ "shows": [{
+    "contact": "James",
+    "submitDate": "I'll Figure the out later",
+    "performDates": "I'll Figure the out later: Part 2",
+    "title": "The Last Boy Scout (The Musical)",
+    "music": "Burce Willis",
+    "lyrics": "Damon Wayans",
+    "book": "Joel Schumacher",
+    "blurb": "There's a footbal bomb!",
+    "image": "http://fiebredecabina.com/wp-content/uploads/2017/08/el-ultimo-boy-scout-poster.jpg"
+  }, {
+    "contact": "Charissa",
+    "submitDate": "I'll Figure the out later",
+    "performDates": "I'll Figure the out later: Part 2",
+    "title": "ANTM The Musical",
+    "music": "Tyra Banks",
+    "lyrics": "Nigel",
+    "book": "Twiggy",
+    "blurb": "We were all rooting for you!!",
+    "image": "https://static.next-episode.net/tv-shows-images/huge/americas-next-top-model.jpg"
+  }, {
+    "contact": "Joel",
+    "submitDate": "I'll Figure the out later",
+    "performDates": "I'll Figure the out later: Part 2",
+    "title": "Mad Max: Fury Road",
+    "music": "The Doof Warrior",
+    "lyrics": "Tom Hardy",
+    "book": "George Miller",
+    "blurb": "Best Movie Ever",
+    "image": "https://upload.wikimedia.org/wikipedia/th/6/6e/Mad_Max_Fury_Road.jpg"
+  }]
+}

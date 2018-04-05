@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('about');
   this.route('contact');
   this.route('show', {path: '/show/:show_id'});
+  this.route('submit');
 });
 
 export default Router;

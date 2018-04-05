@@ -1,0 +1,69 @@
+<h1>Submit a Show</h1>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="contact">Contact</label>
+      {{input value=contact  id="contact"}}
+    </div>
+  </form>
+
+  <form>
+    <div class="form-group">
+      <label for="submitDate">Today's Date</label>
+      {{input value=submitDate  id="submitDate"}}
+    </div>
+  </form>
+
+  <form>
+    <div class="form-group">
+      <label for="performDates">Show Dates</label>
+      {{input value=performDates  id="performDates"}}
+    </div>
+  </form>
+
+  <form>
+    <div class="form-group">
+      <label for="title">Show Title</label>
+      {{input value=title  id="title"}}
+    </div>
+  </form>
+
+  <form>
+    <div class="form-group">
+      <label for="music">Composer</label>
+      {{input value=music  id="music"}}
+    </div>
+  </form>
+
+  <form>
+    <div class="form-group">
+      <label for="lyrics">Lyrics</label>
+      {{input value=lyrics  id="lyrics"}}
+    </div>
+  </form>
+
+  <form>
+    <div class="form-group">
+      <label for="book">Book</label>
+      {{input value=book id="book"}}
+    </div>
+  </form>
+
+  <form>
+    <div class="form-group">
+      <label for="blurb">Brief Description</label>
+      {{input value=blurb id="blurb"}}
+    </div>
+  </form>
+
+  <form>
+    <div class="form-group">
+      <label for="image">Image Link</label>
+      {{input value=image id="image"}}
+    </div>
+
+    <button {{action 'saveSubmit1'}}>Submit</button>
+  </form>
+</div>
+
+{{yield}}
