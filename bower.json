@@ -1,0 +1,1 @@
+{"name":"nwc","description":"Small description for nwc goes here","main":"","authors":["Joel <joeltwaage@gmail.com>"],"license":"MIT","homepage":"https://github.com/joelwaage/nwc","ignore":["**/.*","node_modules","bower_components","test","tests"],"dependencies":{}}
