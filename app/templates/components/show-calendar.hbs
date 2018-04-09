@@ -1,4 +1,7 @@
-{{#power-calendar as |calendar|}}
+{{#power-calendar
+  center=month
+  onCenterChange=(action (mut month) value="date") as |calendar|}}
+  {{calendar.nav class="nav"}}
   {{calendar.days}}
 {{/power-calendar}}
 <hr>
