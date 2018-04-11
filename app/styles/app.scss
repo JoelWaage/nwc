@@ -46,89 +46,22 @@ li {
   background-color: #F8F8F8;
 }
 
-/* Month Header */
-.month {
-  padding: 70px 25px;
-  width: 100%;
-  background: #1abc9c;
-  text-align: center;
-}
-
-/* Month List */
-.month ul {
-  margin: 0;
-  padding: 0;
-}
-
-.month ul li {
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-/* previous button */
-.month .prev {
-  float: left;
-  padding-top: 10px;
-}
-
-/* next button */
-.month .next {
-  float: right;
-  padding-top: 10px;
-}
-
-/* days of the week */
-.weekdays {
-  margin: 0;
-  padding: 10px 0;
-  background-color: #ddd;
-}
-
-.weekdays li {
-  display: inline-block;
-  width: 13.6%;
-  color: #666;
-  text-align: center;
-}
-
-/* days of the month */
-.days {
-  padding: 10px 0;
-  background: #eee;
-  margin: 0;
-}
-
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size: 12px;
-  color: #777;
-}
-
-/* Highlight current day */
-.days li .active {
-  padding: 5px;
-  background: #1abc9c;
-  color: white !important
-}
-
-.demo-calendar-small {
-  @include ember-power-calendar($cell-size: 30px);
-}
-.demo-calendar-medium {
-  @include ember-power-calendar($cell-size: 50px);
-}
 .demo-calendar-big {
-  @include ember-power-calendar($cell-size: 70px);
+  @include ember-power-calendar($cell-size: 100px);
+  float: left
+}
+
+.ember-power-calendar {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.ember-power-calendar-days {
+
 }
 
 .ember-power-calendar-nav {
-  padding: 70px 25px;
+  padding: 20px 5px;
   width: 100%;
   background: #1abc9c;
   color: white;
@@ -136,4 +69,7 @@ li {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
 }
