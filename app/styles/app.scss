@@ -10,45 +10,26 @@ li {
   list-style-type: none;
 }
 
-.headline {
-  margin-top: 60px;
-  font-size: 6em;
+.navbar-custom {
+  background-color: darkslateblue;
 }
 
-.byline {
-  font-weight: bolder;
-  padding-top: 20px;
-}
-
-.show {
-  margin-top: 45px;
-}
-
-.home-button {
+.navbar-brand {
   color: white;
 }
 
-.index-headline {
-  font-size: 2em;
+.navbar-link {
+  color: white;
 }
 
-.cat {
-  font-size: 1.1em;
-  margin-left: 20px;
-}
-
-.new-story {
-  margin-top: 60px;
-  padding-bottom: 20px;
-}
-
-.navbar {
-  background-color: #F8F8F8;
+.icon-bar {
+  background-color: white;
 }
 
 .demo-calendar-big {
   @include ember-power-calendar($cell-size: 100px);
-  float: left
+  float: left;
+  padding-right: 20px;
 }
 
 .ember-power-calendar {
@@ -63,7 +44,7 @@ li {
 .ember-power-calendar-nav {
   padding: 20px 5px;
   width: 100%;
-  background: #1abc9c;
+  background: lightsteelblue;
   color: white;
   font-size: 20px;
   text-align: center;
