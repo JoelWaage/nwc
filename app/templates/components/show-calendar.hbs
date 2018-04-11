@@ -5,7 +5,7 @@
   onSelect=(action (mut selected) value="moment")
   onCenterChange=(action (mut month) value="date") as |calendar|}}
   {{calendar.nav class="nav"}}
-  {{calendar.days}}
+  {{calendar.days class="days"}}
 {{/power-calendar}}
 
 {{yield}}
